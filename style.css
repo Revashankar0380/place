@@ -1,0 +1,414 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+#hero
+{
+	height: 100vh;
+	background: url(images/004.jpg);
+	background-size: cover;
+	background-position: top	;
+}
+
+.inner
+{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand
+{
+    max-width: 750px;
+    width: 100%;
+    padding: 20px;
+    /*background: red;*/
+    text-align: center;
+}
+
+.head_text
+{
+    font-size: 3vw;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.head_disc
+{
+    color: grey;
+}
+
+.btn
+{
+    padding: 15px 40px;
+    background: linear-gradient(90deg, blue 10%, purple);
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-top: 25px;
+}
+
+/*-------------------------------------*/
+
+nav
+{
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.menu
+{
+    padding: 10px;
+    /*background: red;*/
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo
+{
+
+    font-size: 30px;
+    color: white;
+}
+
+.muted
+{
+    color: grey;
+}
+
+.ulist
+{
+    display: flex;
+    list-style: none;
+}
+
+.ulist li
+{
+    padding: 7px 15px;
+    font-size: 14px;
+}
+
+.ulist li a
+{
+    color: white;
+}
+
+.active {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.ulist li:hover
+{
+/*	background: green;*/
+	cursor: pointer;
+}
+
+/*-----------------------------------------------------------*/
+#design
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.phase-1,
+.phase-2
+{
+	width: 50%;
+}
+
+.phase-1
+{
+	background: url(images/coding1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.phase-2
+{
+	background: url(images/coding3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.head
+{
+    color: grey;
+    font-size: 36px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.head .wh
+{
+    color: white;
+}
+
+.inner-2
+{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 100px 50px;
+    color: white;
+}
+
+
+/*--------------------------------------------------------*/
+
+#what,#about 
+{
+    padding: 100px 50px;
+}
+
+
+.tx-center 
+{
+    text-align: center;
+    font-size: 3vw;
+}
+
+#what .container
+{
+    /*padding: 20px;*/
+    max-width: 1200px;
+    width: 100%;
+    /*margin-top: 50px;*/
+    /*background: pink;*/
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#what .container .part
+{
+    width: calc(50% - 15px);
+    /*padding: 20px;*/
+    /*background: coral;*/
+}
+
+#what .container .part .upper
+{
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.upper i
+{
+    font-size: 75px;
+    color: grey;
+    margin-right: 30px;
+}
+
+.heading
+{
+    font-size: 24px;
+}
+
+.tx-muted
+{
+    color: grey;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+#what .btn,#about .btn
+{
+    display: block;
+    margin: 50px auto 0;
+    background: linear-gradient(90deg, blue 10%, purple);
+}
+
+/*--------------------------------------------------*/
+
+.parallex
+{
+    padding: 100px;
+    background: url(images/office3.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.parallex h1
+{
+    color: white;
+}
+
+.para
+{
+    width: 40%;
+    margin-top: 25px;
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+}
+/*-------------------------------------------------------------*/
+#about .container
+{
+	padding: 10px;
+	max-width: 1200px;
+	width: 100%;
+	/*background: #f2f2f2;*/
+	margin:25px auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+#about .container .part
+{
+    width: calc(25% - 10px);
+    padding: 10px;
+    background: white;
+    text-align: center;
+}
+
+#about .container .part img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.team_name
+{
+	margin-top: 20px;
+}
+/*----------------------------------------------------*/
+
+#contact
+{ 
+    background: url(images/gmap.jpg);	
+    height: 80vh;
+    background-size: cover;
+    background-position: center;       
+ }
+ /*-----------------------------------------------*/
+
+footer
+{
+	padding: 50px;
+	text-align: center;
+}
+
+
+/*==============================*/
+
+@media(max-width: 990px)
+{
+	#about .container .part 
+	{
+		width: calc(50% - 15px);
+	}
+
+}
+
+/*----------------------------*/
+
+@media(max-width: 780px)
+{
+	.menu,
+	.design,
+	#what .container
+	{
+		flex-direction: column;
+	}
+
+	.upper i
+	{
+		margin: 15px 0;
+	}
+
+	#what .container .part .upper
+	{
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.phase-1,
+	.phase-2,
+	#what .container .part
+	{
+		width: 100%;
+	}
+
+	.logo
+	{
+		margin-bottom: 10px;
+	}
+
+	#about .container .part
+	{
+		width: calc(50% - 15px);
+	}
+
+	.para
+	{
+		width: 80%;
+	}
+
+}
+
+/*----------------------------------*/
+
+@media(max-width: 600px)
+{
+	.ulist
+	{
+		flex-direction: column;
+	}
+
+	.head_text
+	{
+		margin-top: 30px;
+	}
+
+	#about .container .part
+	{
+		width: 100%;
+	}
+
+	.para
+	{
+		width: 90%;
+	}
+
+}
+
+/*-------------------------------------------------------------------*/
+
